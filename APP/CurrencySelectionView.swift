@@ -56,7 +56,7 @@ struct CurrencySelectionView: View {
              Country(name: "Oman", currency: "Omani rial"),
              Country(name: "Pakistan", currency: "Pakistani rupee"),
              Country(name: "Palestine", currency: "Palestine Pound"),
-             Country(name: "SriLanka", currency: "Rupees"),
+             Country(name: "SriLanka", currency: "LKR"),
     ]
 
     var filteredCountries: [Country] {
@@ -130,26 +130,6 @@ struct CurrencySelectionView: View {
          }
      }
  }
-
-struct NextScreen: View {
-    @Binding var selectedCountry: Country?
-
-    var body: some View {
-        VStack {
-            Text("Selected Country: \(selectedCountry?.name ?? "")")
-                .font(.title)
-                .padding()
-
-            Text("Currency: \(selectedCountry?.currency ?? "")")
-                .font(.title)
-                .padding()
-
-            Spacer()
-        }
-        .navigationBarTitle("", displayMode: .inline)
-        
-    }
-}
 
 struct SearchBar: View {
     @Binding var text: String

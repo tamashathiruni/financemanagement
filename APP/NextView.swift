@@ -87,7 +87,7 @@ struct NextView: View {
                     .font(.headline)
                     .padding()
                     .frame(maxWidth: .infinity)
-                    .foregroundColor(.black)
+                    .foregroundColor(.blue)
                     .cornerRadius(10)
             }
             .background(

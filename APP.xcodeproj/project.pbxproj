@@ -24,6 +24,8 @@
 		D6DC9BC52AB1E6BB006AFF19 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC9BC42AB1E6BB006AFF19 /* ExpensesView.swift */; };
 		D6DC9BCB2AC31EA0006AFF19 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC9BCA2AC31EA0006AFF19 /* NextView.swift */; };
 		D6DC9BCD2AC5AACD006AFF19 /* CurrencySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC9BCC2AC5AACD006AFF19 /* CurrencySelectionView.swift */; };
+		D6DC9BCF2AC65FBF006AFF19 /* NextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC9BCE2AC65FBE006AFF19 /* NextScreen.swift */; };
+		D6DC9BD12AC67B8A006AFF19 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC9BD02AC67B8A006AFF19 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		D6DC9BC42AB1E6BB006AFF19 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
 		D6DC9BCA2AC31EA0006AFF19 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 		D6DC9BCC2AC5AACD006AFF19 /* CurrencySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectionView.swift; sourceTree = "<group>"; };
+		D6DC9BCE2AC65FBE006AFF19 /* NextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreen.swift; sourceTree = "<group>"; };
+		D6DC9BD02AC67B8A006AFF19 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				D6DC9BAB2AAF1FFC006AFF19 /* PageModel.swift */,
 				D6DC9BAD2AAF2369006AFF19 /* PageView.swift */,
 				D6DC9BCC2AC5AACD006AFF19 /* CurrencySelectionView.swift */,
+				D6DC9BCE2AC65FBE006AFF19 /* NextScreen.swift */,
+				D6DC9BD02AC67B8A006AFF19 /* HomeScreen.swift */,
 				D6DC9BB12AAF2DAE006AFF19 /* SignUpView.swift */,
 				D6DC9BB32AAF543A006AFF19 /* SignInView.swift */,
 				D6DC9BB52AAF6F3C006AFF19 /* HomeView.swift */,
@@ -227,11 +233,13 @@
 				D6DC9BB42AAF543B006AFF19 /* SignInView.swift in Sources */,
 				D6DC9BB62AAF6F3C006AFF19 /* HomeView.swift in Sources */,
 				D6DC9BB82AB07F34006AFF19 /* SideMenuView.swift in Sources */,
+				D6DC9BD12AC67B8A006AFF19 /* HomeScreen.swift in Sources */,
 				D6DC9BAE2AAF2369006AFF19 /* PageView.swift in Sources */,
 				D6DC9BCB2AC31EA0006AFF19 /* NextView.swift in Sources */,
 				D6DC9BC32AB1D890006AFF19 /* IncomeView.swift in Sources */,
 				D6DC9BB22AAF2DAE006AFF19 /* SignUpView.swift in Sources */,
 				D6DC9BBA2AB0AD4E006AFF19 /* ChartView.swift in Sources */,
+				D6DC9BCF2AC65FBF006AFF19 /* NextScreen.swift in Sources */,
 				D6DC9BC52AB1E6BB006AFF19 /* ExpensesView.swift in Sources */,
 				D6DC9BAC2AAF1FFC006AFF19 /* PageModel.swift in Sources */,
 				D6DC9B9E2AAC6D65006AFF19 /* ContentView.swift in Sources */,
