@@ -32,5 +32,7 @@ struct HomeScreen: View {
             Spacer()
         }
         .padding()
-  }
+        .navigationBarBackButtonHidden(true)
+        
+    }
 }
